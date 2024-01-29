@@ -1,13 +1,39 @@
-<!DOCTYPE html>
+<!DOCTYPE html> <!-- announced that this is an html file-->
 <html> 
-    <head>
-        <title>My first page :D</title> <!-- appears as tab title but not on actual webpage-->
+    <head> <!-- information about the page (like css)-->
+        <title>My first page :D</title> <!-- appears as tab/page title but not on actual webpage-->
+        <link rel="stylesheet" href="style.css"> 
     </head>
     <body>
-        <p>This is my first paragraph.</p>
-        <p>This is my second paragraph.</p>
-        <h1>Heading One</h1>
-        <h2>Heading Two</h2>
+        <h1>Maria's Page</h1>
+        <p>My favorite color is pink.</p>
+        <p>I am from New York City.</p>
+        <!-- code breaks do not show up on the website-->
+
+        <h2>I own too many sonny angels, but they are so cute.</h2>
+
+        <img src="images/sonnyangel.webp" height="200 px" alt="sonny angel holding a flower"> <!-- pick a height or width but not both b/c it may distort the image-->
+        <img src="images/sonnyangel2.webp" height="200px" alt="another sonny angel in costume"> 
+        <img src="images/sonnyangel3.jpeg" height="200 px" alt="a third sonny angel with an elephant hat on">
+
+        <h2>I buy my sonny angels from the <a href="https://www.sonnyangel.com/en/" target="_blank"> sonny angel official website. </a> </h2>
+
+        <H3> My favorite Taylor Swift songs in no particular order: </H3>
+        <ul> 
+            <li>Love Story</li>
+            <li>Speak Now</li>
+            <li>You Belong With Me</li>
+        </ul>
+
+
+        </body>
+
+        </html>
+
+
+
+      <!-- OLD CODE <br> creates a line break, you can also put the image tag in the paragraph tag to make it on its own line
+
         <h3>Heading Three</h3>
         <h4>Heading Four</h4>
         <h5>Heading Five</h5>
@@ -17,11 +43,11 @@
         <h3>I love and hate <a href="http://google.com">Google</a></h3>
         <h4>You can <a href="mailto:mterzulli1@fordham.edu"> email me here</a> anytime.</h4>
 
-        <hr> <!-- adds a line-->
+        <hr> adds a line
 
-        <ul> <!-- bullet point list-->
+        <ul>  bullet point list
             <li>Pookie 1</li>
-            <br> <!-- line break-->
+            <br>  line break
             <li>Pookie 2</li>
             <li>Pookie 3</li>
             <li>Pookie 4</li>
@@ -29,16 +55,35 @@
 
         <hr>
 
-        <ol> <!-- numbered list-->
+        <ol> numbered list
             <li>Top pookie: Pookie 1</li>
             <li>Second pookie: Pookie 2</li>
             <li>Third pookie: Pookie 3</li>
         </ol>
 
-        <h3> <a href="https://www.nytimes.com/" target="_blank"> This link will open in a new tab.</a></h3>  <!-- The target comment opens links in a new tab as opposed to the curent tab -->
+        <h3> <a href="https://www.nytimes.com/" target="_blank"> This link will open in a new tab.</a></h3>   The target comment opens links in a new tab as opposed to the curent tab 
 
-        <h3><a href="https://www.w3schools.com/TAGS/default.asp" target="_blank"> A list of HTML tags can be found here.</a></h3>
-    </body>
+        <h3><a href="https://www.w3schools.com/TAGS/default.asp" target="_blank"> A list of HTML tags can be found here.</a></h3> --> 
+        
 
     <!-- This is a comment for my eyes only <3 -->
-</html>
+
+    <!--11/29 CLASS NOTES
+         an image tag has no closing it is just <img> -->
+    <!-- path to an image is in the same folder as the website hmtl file, there is a website folder-->
+    <!-- <img src="images/portrait.jpg"> is image source, these are called relative links
+         when they are going back to an image source or another page-->
+    <!-- absolute link is for an image that is on another website
+    alt attribute stands for alternative text, which is text that describes an image, alt tags are
+    important for accessible websites
+    **if you make the browser narrower the browser will make it automatically wrap
+    **when you change folder/image names make sure you update the name in your code, it is better to usre lowercase letters and no special characters
+
+    CSS stands for cascading stle sheets, it has its own formatting that can be put directly in html but it is recommended to put your css in its own document and then connect the two (embed css in html)
+    html = elements , css = rules 
+    there is a selector and a declaration in css p{color:yellow;} 
+    each declaration has a property and a value. ^ property = color, value = yellow 
+    
+    color= color name (boring) rgb values, rgba values (with alpha), hex code
+    fontstack p {font-family:Helvetica, Arial (if helvetica isn't available, sans-serif(then just pick a sans serif font);)
+ 
