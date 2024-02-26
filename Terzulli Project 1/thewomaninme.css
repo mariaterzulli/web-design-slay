@@ -1,0 +1,248 @@
+* {
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+
+}
+
+
+ #title{
+    background-color: black;
+    font-size: 80px;
+    height: 100%;
+    text-align: center;
+    padding-top: 40px;
+    h1{
+        color: rgb(255, 182, 193); 
+  font-family: "Smooch Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400px;
+  font-style:normal;
+}
+    
+} 
+
+.bookcover{
+    background-color: black;
+}
+img.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+#synopsis{
+
+    .synopsis-content{
+        background-image: url(images/pinkbackground.jpeg);
+        background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    }
+    
+
+    h2{
+        font-family: "Smooch Sans", sans-serif;
+        font-size: 60px;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style:normal;
+        text-align: center;
+    }
+
+    h3{
+        font-size: 18px;
+        font-weight: 900;
+        font-family: "Kode Mono", monospace;
+        font-optical-sizing: auto;
+        font-style: normal;
+        padding-top: 20px;
+        padding-bottom: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    p{
+        font-size: 18px;
+        font-family: "Kode Mono", monospace;
+        font-weight: 300;
+        font-optical-sizing: auto;
+        font-style: normal;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+    }
+}
+
+#reviews{
+
+    background-color: black;
+    padding-bottom: 20px;
+
+    h3{
+        font-family: "Smooch Sans", sans-serif;
+        font-size: 60px;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style:normal;
+        text-align: center;
+        color: rgb(255, 182, 193); 
+    }
+    .review-left{
+        
+        border: 2px solid rgb(255, 182, 193);
+        
+        p{
+            
+        font-size: 16px;
+        font-family: "Kode Mono", monospace;
+        font-weight: 300;
+        font-optical-sizing: auto;
+        font-style: normal;
+        text-align: left;
+        padding-left: 20px;
+        padding-right: 600px;
+        padding-bottom: 20px;
+        color: rgb(255, 182, 193); 
+        }
+
+        .reviewer
+        {
+            font-style: italic;
+            font-size: 14px;
+            text-align: right;
+        }
+    }
+
+    .stars{
+        padding-left: 20px;
+        padding-bottom: 10px;
+        font-size: 35px;
+    }
+} 
+
+    .review-right{
+        
+        p{
+            
+        font-size: 16px;
+        font-family: "Kode Mono", monospace;
+        font-weight: 300;
+        font-optical-sizing: auto;
+        font-style: normal;
+        text-align: right;
+        padding-left: 600px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+        color: rgb(255, 182, 193); 
+        }
+
+        .reviewer
+        {
+            font-style: italic;
+            font-size: 14px;
+            text-align: right;
+        }
+
+        .stars-right{
+            font-size: 35px;
+            padding-bottom: 10px;
+    }
+} 
+
+#purchase{
+
+    background-image: url(images/pinkbackground.jpeg);
+        background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    h4{
+        font-family: "Smooch Sans", sans-serif;
+        font-size: 60px;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style:normal;
+        text-align: center;
+        color: black; 
+    }
+}
+
+.purchase-button {
+
+    font-size: 16px;
+        font-family: "Kode Mono", monospace;
+        font-weight: 300;
+        font-optical-sizing: auto;
+        font-style: normal;
+
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #ffe562; 
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.purchase-button:hover {
+    background-color: rgb(232, 168, 206); 
+}
+
+
+
+
+ 
+
+
+
+/* 
+#opener {
+    width: auto; 
+    height:auto; 
+    background-color: black;
+
+    h1{
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(255, 182, 193);  
+        font-size: 80px; 
+        margin: 0; 
+        height: 100%;
+        padding: 0;
+        padding-top: 50px; 
+        text-align: center;
+    }
+
+    h2{
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(255, 182, 193);  
+        font-size: 40px; 
+        margin: 0; 
+        height: 100%;
+        padding: 0;
+        padding-top: 50px;
+        text-align: center;
+    }
+
+    p{
+        font-family: 'Courier New', Courier, monospace;
+        color: rgb(255, 182, 193);  
+        font-size: 18px; 
+        height: 100%;
+        padding: 0;
+        text-align: right;
+    }
+
+    
+}
+
+.synopsis{ 
+    p{
+        width: 85%;
+    }
+}
+
+*/
