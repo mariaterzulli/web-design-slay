@@ -1,0 +1,137 @@
+body {
+    background-color: lightpink;
+    font-family: 'Cutive Mono', monospace;
+}
+
+a:focus, a:active, 
+button:focus, 
+button:active, 
+input:focus,
+input:active {
+    outline: none;
+    box-shadow: none;
+}
+
+#introduction h1, #introduction h2 {
+    margin-bottom: 0;
+}
+
+#introduction h1 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    font-size: 100px;
+    text-align: center;
+    margin-bottom: -20px;
+}
+
+#introduction h2 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 50px;
+    text-align: center;
+}
+
+#content1, #content1 .image1, #content1 .paragraph1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#content1 .paragraph1 p, #paragraph2 p {
+    font-family: 'Cutive Mono', monospace;
+    font-weight: 400;
+    font-size: 24px;
+    text-align: left;
+    margin: 20px;
+}
+
+#content1 .image1 img {
+    display: block;
+    margin-left: auto;
+    padding: 20px;
+}
+
+#image2 img {
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    padding: 20px;
+}
+
+#image3 img {
+    display: block;
+    margin-right: auto;
+    padding: 20px;
+}
+
+.button {
+    display: inline-block;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 12px;
+    background-color: gray;
+    color: white;
+    padding: 2px 5px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    margin: 10px 0;
+}
+
+.button:hover {
+    background-color: darkgray;
+}
+
+@media (max-width: 768px) {
+    body {
+        background-color: #f0e68c;
+        font-family: 'Oswald', sans-serif; /* Changes font to Oswald */
+    }
+
+    #introduction h1, #introduction h2, #content1 .paragraph1 p, #paragraph2 p, .button {
+        font-weight: bolder; /* Makes text bolder */
+    }
+
+    #introduction h1 {
+        font-size: 50px;
+    }
+
+    #introduction h2 {
+        font-size: 25px;
+    }
+
+    #content1, #content1 .image1, #content1 .paragraph1, #image2 img, #image3 img {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .button {
+        font-size: 10px;
+        padding: 1px 3px;
+        background-color: lightgray;
+    }
+}
+
+@media (max-width: 480px) {
+    #content1 .paragraph1 p, #paragraph2 p {
+        font-size: 18px;
+    }
+
+    #image2 img, #image3 img {
+        width: 70%;
+    }
+
+    .button {
+        display: none;
+    }
+}
+
+
+
+
+
+
+
