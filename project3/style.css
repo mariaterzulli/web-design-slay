@@ -1,0 +1,138 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Reddit Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff; /* Light blue background for better readability */
+    color: #333333; /* Dark gray text color for general text */
+}
+
+p {
+    font-size: 40px;
+    padding: 10px;
+}
+
+h3 {
+    font-size: 30px;
+    text-decoration: none;
+    padding: 10px;
+}
+
+h6 {
+    font-size: 18px;
+}
+
+#intro, #title, .resultpage, .page, .parent {
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(252, 186, 87); /* Orange background */
+    background-position: center;
+    background-size: cover;
+}
+
+#title {
+    text-align: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.deathpage {
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-color: #f8d7da;
+    color: #721c24;
+}
+
+h1, h2, h3, h4, h6 {
+    font-weight: normal;
+    text-decoration: none;
+}
+
+a.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #c9e4ff;
+    text-align: center;
+    padding: 5px 0;
+}
+
+@media (max-width: 768px) {
+    .btn {
+        padding: 15px 30px;
+    }
+    h1, h2 {
+        font-size: smaller;
+    }
+}
+
+.image, .page2image, .page4image, .result4image, .death1image, .death2image, .death3image, .option1images, .option2images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    gap: 20px;
+}
+
+.image img, .page2image img, .page4image img, .result4image img, .death1image img, .death2image img, .death3image img, .option1images img, .option2images img {
+    width: 100%; /* Adjust as needed */
+    max-width: 200px; /* Adjust based on your design */
+    height: auto;
+    border-radius: 10px; /* Optional, for rounded corners */
+}
+
+/* Specific styles for death pages */
+.death1image, .death2image, .death3image {
+    flex-direction: row; /* Changed from column to row */
+}
+
+.option1images, .option2images {
+    flex-direction: row;
+}
+
+a:visited, a:visited:hover {
+    text-decoration: none; /* Removes text decoration from visited links */
+}
+
+a:hover {
+    color: darkgoldenrod; 
+}
+
+a.option1, a.option2, a.option1:visited, a.option2:visited {
+    color: #333333;
+    text-decoration: none;
+}
+
+a.option1:hover, a.option2:hover {
+    color: blue;
+}
+
+
+
+
+
+
+
