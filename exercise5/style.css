@@ -1,0 +1,141 @@
+/* CSS File: style.css */
+
+* {
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+
+}
+body, h1, h2, h3, p, button {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+h1 {
+    color: black;
+    font-size: 80px;
+    height: 100%;
+    text-align: center;
+    padding-top: 1px;
+    padding-bottom: 10px;
+    margin: 20px;
+    margin-bottom: 20px;
+    margin-top: 0;
+    border: 3px solid palevioletred;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5);
+}
+
+
+h2 {
+    font-size: 60px;
+    font-weight: 600;
+    text-align: center;
+}
+
+h3 {
+    font-size: 30px;
+    font-weight: 900;
+    padding: 10px;
+    margin: 10px;
+}
+
+p {
+    font-size: 22px;
+    font-weight: 400;
+    color: pink;
+    padding: 10px;
+    margin: 15px;
+}
+
+#projects {
+    background: linear-gradient(rgb(245, 155, 185), pink);
+    color: black;
+    text-align: center;
+
+}
+
+.button-container {
+    text-align: center;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+button {
+    background-color: palevioletred;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+    font-size: 18px;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+#reflections {
+    background-color: black;
+    color: pink;
+}
+
+
+#reflections h3 {
+    font-size: 30px;
+    font-weight: 900;
+    margin-right: 10px;  
+    padding: 0;  
+    padding-left: 10px;        
+}
+
+#reflections p {
+    font-size: 22px;
+    font-weight: 400;
+    margin-right: 5px;   
+    margin-bottom: 0;        
+    padding: 0;     
+    padding-left: 10px;   
+}
+
+#about {
+    background: linear-gradient(pink, rgb(245, 155, 185));
+    color: black;
+}
+
+#about p {
+    font-size: 22px;
+    font-weight: 400;          
+    margin-right: 5px;   
+    margin-bottom: 0;       
+    padding: 0;     
+    padding-left: 10px;   
+    color: black;        
+}
+
+#about h3{
+    font-size: 30px;
+    font-weight: 900;
+    margin-right: 10px;  
+    padding: 0;  
+    padding-left: 10px;  
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 900,
+    'GRAD' 0,
+    'opsz' 24;
+    font-family: 'Material Symbols Outlined';
+    padding: 20px;
+  }
+  
+  .heart-icon {
+    color: black;
+  }
+
+  .draw{
+font-size: large;
+text-decoration: underline;
+  }
+  
