@@ -1,82 +1,138 @@
- body {
-    font-family:'Courier New', Courier, monospace;
-    color:pink;  
- }
+ * {
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
 
- h1{
-    font-size: 60px;
- }
-
- p{
-    font-size: 40 px;
-    font-weight: bolder;
- }
-ul{
-    font-weight: 400;
-    color:plum; 
+}
+body, h1, h2, h3, p, button {
+    font-family: 'Courier New', Courier, monospace;
 }
 
-a{
-    color: hotpink;
-    text-decoration: underline;
-}
- //*
- h1 {
-    color:pink;
-    font-size: 60px; 
- }
 
- h2{
-    color:rgba(227,100, 165, .50);
-    background-color: aliceblue;
- }
-
- p{
-    color:black;
-    background-color:pink;
+h1 {
+    color: black;
+    font-size: 80px;
+    height: 100%;
     text-align: center;
- }
+    padding-top: 1px;
+    padding-bottom: 10px;
+    margin: 20px;
+    margin-bottom: 20px;
+    margin-top: 0;
+    border: 3px solid palevioletred;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5);
+}
 
- h3{
-    color:brown;
- }
 
- h4{
-    color:black;
- }
+h2 {
+    font-size: 60px;
+    font-weight: 600;
+    text-align: center;
+}
 
- h5{
-    color:plum;
- }
+h3 {
+    font-size: 30px;
+    font-weight: 900;
+    padding: 10px;
+    margin: 10px;
+}
 
- h6{
-    color:purple;
- }
+p {
+    font-size: 22px;
+    font-weight: 400;
+    color: pink;
+    padding: 10px;
+    margin: 15px;
+}
 
- a{
-    color:hotpink;
-    text-decoration: none;
- }
+#projects {
+    background: linear-gradient(rgb(245, 155, 185), pink);
+    color: black;
+    text-align: center;
 
- a:hover {
-    color:orchid;
-    text-decoration: underline;
- }
+}
 
- a:visited{
-    color:gray;
- }
+.button-container {
+    text-align: center;
+    margin: 0 auto;
+    padding: 15px;
+}
 
- a:visited:hover{
-    color:gray;
- }
+button {
+    background-color: palevioletred;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+    font-size: 18px;
+}
 
- ul{
-    list-style-type: none;
-    color:powderblue;
- }
+button:hover {
+    opacity: 0.9;
+}
 
- ul li{
-    display: inline;
- }
- *//
+#reflections {
+    background-color: black;
+    color: pink;
+}
+
+
+#reflections h3 {
+    font-size: 30px;
+    font-weight: 900;
+    margin-right: 10px;  
+    padding: 0;  
+    padding-left: 10px;        
+}
+
+#reflections p {
+    font-size: 22px;
+    font-weight: 400;
+    margin-right: 5px;   
+    margin-bottom: 0;        
+    padding: 0;     
+    padding-left: 10px;   
+}
+
+#about {
+    background: linear-gradient(pink, rgb(245, 155, 185));
+    color: black;
+}
+
+#about p {
+    font-size: 22px;
+    font-weight: 400;          
+    margin-right: 5px;   
+    margin-bottom: 0;       
+    padding: 0;     
+    padding-left: 10px;   
+    color: black;        
+}
+
+#about h3{
+    font-size: 30px;
+    font-weight: 900;
+    margin-right: 10px;  
+    padding: 0;  
+    padding-left: 10px;  
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 900,
+    'GRAD' 0,
+    'opsz' 24;
+    font-family: 'Material Symbols Outlined';
+    padding: 20px;
+  }
+  
+  .heart-icon {
+    color: black;
+  }
+
+  .draw{
+font-size: large;
+text-decoration: underline;
+  }
