@@ -1,0 +1,158 @@
+@font-face {
+  font-family: "HagridItalic";
+  src: url(fonts/Hagrid-Italic-trial.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: "Hagrid";
+  src: url(fonts/Hagrid-Regular-trial.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: "Brice";
+  src: url(fonts/Brice\ Regular\ SemiExpanded.otf) format('opentype');
+}
+
+@font-face {
+  font-family: "Racing Sans One";
+  src: url(fonts/RacingSansOne-Regular.ttf) format('truetype');
+}
+
+/* Global styling */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: palevioletred;
+}
+
+/* Introduction section */
+.introduction {
+  background: lightpink;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.introduction h1 {
+  color: #333;
+  font-size: 100px;
+  font-family: "Racing Sans One", sans-serif;
+  text-align: center;
+}
+
+.introduction h2 {
+  color: #555;
+  font-size: 75px;
+  font-family: "Racing Sans One", sans-serif;
+  text-align: center;
+}
+
+.introduction p {
+  color: #666;
+  line-height: 1.6;
+  margin-top: 10px;
+  font-family: "Brice", Arial, sans-serif;
+}
+
+/* Photo section */
+.photo-section h2 {
+  text-align: center;
+  color: #444;
+  margin: 20px 0;
+  font-family: "Racing Sans One", sans-serif;
+}
+
+.photo-grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 10px;
+}
+
+
+  .photo-item {
+    text-align: center;
+    width: 200px;
+    height: 250px; /* Set a fixed height for consistent image sizes */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .photo-item img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+.photo-item p {
+  margin-top: 8px;
+  color: #333;
+}
+
+/* Common text styling */
+p, .centered {
+  font-family: "Brice", Arial, sans-serif;
+}
+
+h2, h3 {
+  font-family: "Racing Sans One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #333;
+}
+
+h2 {
+  font-size: 100px;
+  padding-bottom: 0;
+}
+
+h3 {
+  font-size: 50px;
+}
+
+/* Hide scrollbar */
+*::-webkit-scrollbar {
+  display: none;
+}
+
+
+.button {
+  font-family: "Racing Sans One", sans-serif;
+  border: none;
+  text-align: center;
+  font-size: 16px;
+  margin: 20px; /* Add margin for spacing */
+  cursor: pointer;
+  border-radius: 8px;
+  transition-duration: 0.4s;
+}
+
+.compare-button{
+  padding: 15px 30px;
+  background-color: palevioletred;
+  text-decoration: none;
+  color: #fff;
+}
+.compare-button:hover {
+  background-color: #ff99cc;
+  
+}
+
+/* Center the button */
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Center the button */
+

@@ -1,0 +1,170 @@
+@font-face {
+    font-family: "HagridItalic"; /* Specify a name for your font */
+    src: url(fonts/Hagrid-Italic-trial.ttf) format('truetype'); 
+}
+
+@font-face {
+    font-family: "Hagrid"; /* Specify a name for your font */
+    src: url(fonts/Hagrid-Regular-trial.ttf) format('truetype'); 
+}
+@font-face {
+    font-family: "Brice"; /* Specify a name for your font */
+    src: url(fonts/Brice\ Regular\ SemiExpanded.otf) format('opentype'); 
+}
+
+.racing-sans-one-regular {
+    font-family: "Racing Sans One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+p{
+    font-family: "Brice", Arial, sans-serif;
+}
+
+h2, h3{
+    font-family: "Racing Sans One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+
+h2{
+    font-size: 100px;
+    padding-bottom: 0;
+}
+
+h3{
+    font-size: 50px;
+}
+
+/* Split the screen in half */
+*{
+    
+    box-sizing: border-box; 
+    overflow: auto;
+}
+
+*::-webkit-scrollbar {
+    display: none; 
+}
+
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  padding-top: 20px;
+}
+
+/* Control the left side */
+.left {
+  left: 0;
+  background-color: lightpink;
+  color: rgb(255, 255, 255);
+}
+
+/* Control the right side */
+.right {
+  right: 0;
+  background-color: palevioletred;
+}
+
+/* If you want the content centered horizontally and vertically */
+.centered {
+    position: absolute;
+    top: 15%;  /* Adjust this value to shift the content down if it's still too high */
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, -10%); /* Less vertical shift */
+    text-align: center;
+      
+}
+
+
+/* Gallery and Text Styling */
+.gallery {
+    display: flex;
+    justify-content: center; /* Align items in the center horizontally */
+    align-items: center; /* Align items in the center vertically */
+    overflow-x: auto; /* Enable horizontal scrolling */
+    white-space: nowrap; /* Prevent wrapping into multiple lines */
+    gap: 10px; /* Space between images */
+    padding: 10px; /* Padding around the gallery for better spacing */
+}
+
+.gallery img {
+    max-width: 100px; /* Images scale down if needed */
+    height: auto; /* Maintain aspect ratio */
+    display:block; /* Remove extra space below the image */
+}
+
+
+.gallery a {
+    flex: 0 0 auto; /* Do not grow or shrink, maintain actual size */
+}
+
+
+.gallery img:hover {
+    transform: scale(1.1);
+}
+
+
+
+
+.buttonleft {
+    font-family: "Racing Sans One", sans-serif;
+    border: none;
+    text-align: center;
+    font-size: 16px;
+    margin: 20px; /* Add margin for spacing */
+    cursor: pointer;
+    border-radius: 8px;
+    transition-duration: 0.4s;
+  }
+  
+  .compare-buttonleft{
+    padding: 15px 30px;
+    background-color: palevioletred;
+    text-decoration: none;
+    color: #fff;
+  }
+  .compare-buttonleft:hover {
+    background-color: #ff99cc;
+    
+  }
+  
+  /* Center the button */
+  .button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Center the button */
+
+
+  .buttonleft {
+    font-family: "Racing Sans One", sans-serif;
+    border: none;
+    text-align: center;
+    font-size: 16px;
+    margin: 20px; /* Add margin for spacing */
+    cursor: pointer;
+    border-radius: 8px;
+    transition-duration: 0.4s;
+  }
+  
+  .compare-buttonright{
+    padding: 15px 30px;
+    background-color: lightpink;
+    text-decoration: none;
+    color: #fff;
+  }
+  .compare-buttonright:hover {
+    background-color: palevioletred;
+    
+  }
